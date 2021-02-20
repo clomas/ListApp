@@ -16,6 +16,12 @@
 		2769D13C25DD4238002792CF /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2769D13B25DD4238002792CF /* CloudKit.framework */; };
 		2769D13F25DD430D002792CF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2769D13E25DD430D002792CF /* HomeView.swift */; };
 		2769D14225DD438F002792CF /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2769D14125DD438F002792CF /* ProjectsView.swift */; };
+		27E1377325DE9733003A0BFC /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E1377225DE9733003A0BFC /* Item-CoreDataHelpers.swift */; };
+		27E1377625DE9843003A0BFC /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E1377525DE9843003A0BFC /* Project-CoreDataHelpers.swift */; };
+		27E1378725DFA564003A0BFC /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E1378625DFA564003A0BFC /* EditItemView.swift */; };
+		27E1378A25DFB0D7003A0BFC /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E1378925DFB0D7003A0BFC /* ItemRowView.swift */; };
+		27E1378D25DFBBD8003A0BFC /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E1378C25DFBBD8003A0BFC /* Binding-OnChange.swift */; };
+		27E1379125E0AA3B003A0BFC /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E1379025E0AA3B003A0BFC /* ProjectHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +37,12 @@
 		2769D13B25DD4238002792CF /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		2769D13E25DD430D002792CF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2769D14125DD438F002792CF /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
+		27E1377225DE9733003A0BFC /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		27E1377525DE9843003A0BFC /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		27E1378625DFA564003A0BFC /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
+		27E1378925DFB0D7003A0BFC /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
+		27E1378C25DFBBD8003A0BFC /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
+		27E1379025E0AA3B003A0BFC /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,13 +80,19 @@
 				2769D13825DD41E3002792CF /* SurfSpots.entitlements */,
 				274131B725DD299A00B602AF /* SurfSpotsApp.swift */,
 				274131B925DD299A00B602AF /* ContentView.swift */,
-				274131CB25DD32ED00B602AF /* DataController.swift */,
+				2769D13E25DD430D002792CF /* HomeView.swift */,
 				2769D14125DD438F002792CF /* ProjectsView.swift */,
+				27E1378925DFB0D7003A0BFC /* ItemRowView.swift */,
+				27E1378625DFA564003A0BFC /* EditItemView.swift */,
+				27E1379025E0AA3B003A0BFC /* ProjectHeaderView.swift */,
+				27E1378C25DFBBD8003A0BFC /* Binding-OnChange.swift */,
+				27E1377225DE9733003A0BFC /* Item-CoreDataHelpers.swift */,
+				27E1377525DE9843003A0BFC /* Project-CoreDataHelpers.swift */,
+				274131CB25DD32ED00B602AF /* DataController.swift */,
 				274131BB25DD299A00B602AF /* Assets.xcassets */,
 				274131C025DD299A00B602AF /* Info.plist */,
 				274131BD25DD299A00B602AF /* Preview Content */,
 				274131C725DD29DA00B602AF /* Main.xcdatamodeld */,
-				2769D13E25DD430D002792CF /* HomeView.swift */,
 			);
 			path = SurfSpots;
 			sourceTree = "<group>";
@@ -165,11 +183,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				2769D14225DD438F002792CF /* ProjectsView.swift in Sources */,
+				27E1379125E0AA3B003A0BFC /* ProjectHeaderView.swift in Sources */,
 				274131C925DD29DA00B602AF /* Main.xcdatamodeld in Sources */,
+				27E1377625DE9843003A0BFC /* Project-CoreDataHelpers.swift in Sources */,
+				27E1378D25DFBBD8003A0BFC /* Binding-OnChange.swift in Sources */,
 				274131CC25DD32ED00B602AF /* DataController.swift in Sources */,
+				27E1378A25DFB0D7003A0BFC /* ItemRowView.swift in Sources */,
 				274131BA25DD299A00B602AF /* ContentView.swift in Sources */,
 				2769D13F25DD430D002792CF /* HomeView.swift in Sources */,
 				274131B825DD299A00B602AF /* SurfSpotsApp.swift in Sources */,
+				27E1377325DE9733003A0BFC /* Item-CoreDataHelpers.swift in Sources */,
+				27E1378725DFA564003A0BFC /* EditItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
